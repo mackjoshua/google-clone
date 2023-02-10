@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Header from '@/components/Header'
 import Image from 'next/image'
+import Footer from '@/components/Footer'
 import {MagnifyingGlassIcon, MicrophoneIcon, BeakerIcon} from "@heroicons/react/24/solid"
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,6 +35,7 @@ export default function Home() {
           <button className='btn'>Surprise Me!</button>
         </div>
       </form>
+      <Footer/>
     </>
   )
 }
